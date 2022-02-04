@@ -1,0 +1,25 @@
+{
+  "name": "github-action-yarn-workspaces-frozen-lockfile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "release": "sh ./scripts/release.sh",
+    "build": "ncc build index.js --license licenses.txt",
+    "build:cleanup": "rm -rf node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleh-polishchuk/github-action-yarn-workspaces-frozen-lockfile.git"
+  },
+  "author": "oleh.polishchuk.ck@gmail.com",
+  "bugs": {
+    "url": "https://github.com/oleh-polishchuk/github-action-yarn-workspaces-frozen-lockfile/issues"
+  },
+  "homepage": "https://github.com/oleh-polishchuk/github-action-yarn-workspaces-frozen-lockfile#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/exec": "^1.1.0",
+    "@actions/github": "^5.0.0"
+  }
+}
