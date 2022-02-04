@@ -1,5 +1,7 @@
 name: 'Yarn workspaces frozen lockfile'
+author: 'Oleh Polishchuk'
 description: 'The action verifies that yarn.lock file was not updated after installation'
+
 runs:
   using: 'node16'
-  main: 'index.js'
+  main: 'dist/index.js'
